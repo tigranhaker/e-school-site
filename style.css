@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Верхняя полоска */
+.top-bar {
+    width: 100%;
+    background: #fff;
+    padding: 8px 15px;
+    text-align: right;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #0088cc;
+}
+
+.top-bar strong { color: #333; margin-left: 5px; }
+
+/* Фиолетовая шапка */
+.main-header {
+    width: 100%;
+    background-color: #6a3de8;
+    padding: 15px 0;
+}
+
+.header-content {
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+//*
+.logo-section {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.header-logo {
+    width: 45px;
+    height: auto;
+    margin-right: 12px;
+}
+*//
+.brand { display: flex; flex-direction: column; }
+.brand-name { font-size: 28px; font-weight: bold; line-height: 1; }
+.brand-sub { font-size: 10px; letter-spacing: 2px; }
+
+/* Основная карточка */
+.content-wrapper {
+    width: 100%;
+    max-width: 480px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.main-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.card-header {
+    color: #888;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Блок студента */
+.student-box {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.avatar-circle {
+    width: 90px;
+    height: 90px;
+    background: #eee;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+
+.avatar-circle img { width: 100%; height: 100%; object-fit: cover; }
+
+.student-title { font-size: 18px; color: #333; margin: 10px 0 5px; }
+.sub-text { font-size: 14px; color: #777; margin: 2px 0; }
+
+/* Сетка кнопок */
+.action-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.action-btn {
+    background: #fff;
+    border: 1px solid #0088cc;
+    color: #0088cc;
+    padding: 8px 5px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.action-btn:hover { background: #f0f9ff; }
+
+/* Блок добавления */
+.add-box {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.plus-circle {
+    width: 60px;
+    height: 60px;
+    background: #e0e0e0;
+    color: #666;
+    font-size: 35px;
+    line-height: 58px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.add-label { font-size: 16px; font-weight: bold; color: #333; }

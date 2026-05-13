@@ -1,0 +1,148 @@
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 380px;
+}
+
+.title {
+    color: #4a4a4a;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #0077b5;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    color: #006699;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Стили капчи */
+.captcha-container {
+    border: 1px solid #d3d3d3;
+    background-color: #f9f9f9;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    min-height: 74px;
+}
+
+.captcha-left {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #c1c1c1;
+    background-color: #fff;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.captcha-text {
+    font-size: 14px;
+    color: #000;
+}
+
+.captcha-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.captcha-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.recaptcha-label {
+    font-size: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+.captcha-policy {
+    font-size: 8px;
+    color: #555;
+}
+
+.captcha-policy a {
+    color: #555;
+    text-decoration: none;
+}
+
+/* Кнопка входа */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #0077b5;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+    background-color: #005f91;
+}
+
+
+
